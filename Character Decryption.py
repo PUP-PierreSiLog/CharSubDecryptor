@@ -9,3 +9,5 @@ input_string=input("Please input a string to decrypt:")
 #String undergoes decryption
 if "*" in input_string:
     string_a_decrypt=input_string.replace("*", "a")
+if "&" in string_a_decrypt:
+    string_e_decrypt=string_a_decrypt.replace("&", "e")
