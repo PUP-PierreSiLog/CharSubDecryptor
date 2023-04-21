@@ -15,3 +15,5 @@ if "#" in string_e_decrypt:
     string_i_decrypt=string_e_decrypt.replace("#","i")
 if "+" in string_i_decrypt:
     string_o_decrypt=string_i_decrypt.replace("+","o")
+if "!" in string_o_decrypt:
+    output_string=string_o_decrypt.replace("!","u")
